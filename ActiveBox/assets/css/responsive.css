@@ -1,0 +1,267 @@
+@media(min-width:0px) and (max-width:575px){
+    *{
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    /* header start */
+    /* header end */
+    /* banner start  */
+    .banner-content h1{
+        color: var(--white-color);
+        font-size: 45px;
+        max-width: 500px;
+        padding-bottom: 15px;
+        margin: auto;
+    }
+    .banner-content p{
+        color: var(--brand-color);
+        max-width: 80%;
+        margin: auto;
+    }
+    /* banner end */
+    /* service start  */
+    .col-4{
+        width: 90%;
+        margin: auto;
+    }
+    /* service end */
+    /* gallery start  */
+    .col-3{
+        width: 100%;
+    }
+    .text{
+        top: 40%;
+        left: 40%;
+        text-align: center;
+    }
+    /* gallery end */
+    /* stuff start  */
+    .card{
+        width: 60%;
+        margin: auto;
+    }
+    .col{
+        width: 100%;
+    }
+    /* stuff end */
+    /* founder start  */
+    .col-6{
+        width: 100%;
+    }
+    /* founder end */
+    /* download start  */
+    .download-section h2{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    /* download end */
+    /* footer start  */
+    .about .about-section{
+        margin:30px 0px;
+    }
+    /* footer end */
+}
+@media(min-width:576px) and (max-width:767px){
+    *{
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    /* header start */
+    /* header end */
+    /* banner start  */
+    .banner-content h1{
+        color: var(--white-color);
+        font-size: 45px;
+        max-width:100%;
+        padding-bottom: 15px;
+        margin: auto;
+    }
+    .banner-content p{
+        color: var(--brand-color);
+        max-width: 100%;
+        margin: auto;
+    }
+    /* banner end */
+    /* service start  */
+    .col-4{
+        width: 90%;
+        margin: auto;
+    }
+    /* service end */
+    /* gallery start  */
+    .col-3{
+        width: 100%;
+    }
+    .text{
+        top: 40%;
+        left: 40%;
+        text-align: center;
+    }
+    /* gallery end */
+    /* stuff start  */
+    .card{
+        width: 75%;
+        margin: auto;
+    }
+    .col{
+        width: 100%;
+    }
+    /* stuff end */
+    /* founder start  */
+    .col-6{
+        width: 100%;
+    }
+    /* founder end */
+    /* download start  */
+    .download-section h2{
+        font-size: 22px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    /* download end */
+    /* footer start  */
+    .about .about-section{
+        margin:35px 0px;
+    }
+    /* footer end */
+}
+@media(min-width:768px) and (max-width:991px){
+    *{
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    /* header start */
+    /* header end */
+    /* banner start  */
+    .banner-content h1{
+        color: var(--white-color);
+        font-size: 45px;
+        max-width:100%;
+        padding-bottom: 15px;
+        margin: auto;
+    }
+    .banner-content p{
+        color: var(--brand-color);
+        max-width: 100%;
+        margin: auto;
+    }
+    /* banner end */
+    /* service start  */
+    .col-4{
+        width: 50%;
+        margin: auto;
+    }
+    /* service end */
+    /* gallery start  */
+    .col-3{
+        width: 50%;
+    }
+    /* gallery end */
+    /* stuff start  */
+    .card{
+        width: 90%;
+        margin: auto;
+    }
+    .col{
+        width: 50%;
+    }
+    /* stuff end */
+    /* founder start  */
+    .col-6{
+        width: 50%;
+        height: auto;
+    }
+    
+    .carousel-indicators [data-bs-target]{
+        margin-top: 50px;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+    }
+    .carousel-inner{
+        margin: 0px 100px ;
+        max-width: 300px;
+        padding:30px 20px;
+    }
+    /* founder end */
+    /* download start  */
+    .download-section h2{
+        font-size: 22px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    /* download end */
+    /* footer start  */
+    .about .about-section{
+        margin:35px 0px;
+    }
+    /* footer end */
+}
+@media(min-width:992px) and (max-width:1199px){
+    *{
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    /* header start */
+    /* header end */
+    /* banner start  */
+    .banner-content h1{
+        color: var(--white-color);
+        font-size: 65px;
+        max-width:100%;
+        padding-bottom: 15px;
+        margin: auto;
+    }
+    .banner-content p{
+        color: var(--brand-color);
+        max-width: 73%;
+        margin: auto;
+    }
+    /* banner end */
+    /* service start  */
+    .col-4{
+        width: 33.33%;
+        margin: auto;
+    }
+    /* service end */
+    /* gallery start  */
+    .col-3{
+        width: 33.33%;
+    }
+    /* gallery end */
+    /* stuff start  */
+    .card{
+        width: 100%;
+        margin: auto;
+    }
+    .col{
+        width: 33.33%;
+    }
+    /* stuff end */
+    /* founder start  */
+    .carousel-indicators [data-bs-target]{
+        margin-top: 50px;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+    }
+    .carousel-inner{
+        margin: 0px 80px ;
+        max-width: 350px;
+        padding:70px 20px;
+    }
+    /* founder end */
+    /* download start  */
+    .download-section h2{
+        font-size: 22px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    /* download end */
+    /* footer start  */
+    .about .about-section{
+        margin:35px 0px;
+    }
+    /* footer end */
+}

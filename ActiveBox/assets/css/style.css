@@ -1,0 +1,316 @@
+/* google fonts import link  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap');
+
+/* common css code start */
+:root{
+    --white-color:#ffffff;
+    --brand-color:#b7b8c1;
+    --logo-color:#4e5066;
+    --button-color:#e84545;
+    --title-color:#2d3033;
+}
+*{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+h1, h3, h4{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+a ,p ,h2 ,h5 ,h6{
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.6s all;
+}
+/* common css code end */
+/* header section css code start  */
+header{
+    background: url(../img/ActiveBox.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* nav section css start  */
+.nav-section{
+    padding: 15px 10px;
+}
+.nav-section li{
+    padding: 0px 10px;
+    font-size: 16px;
+}
+.nav-section li a{
+    color: var(--brand-color);
+    font-size: 14px;
+    font-weight: 600;
+}
+.nav-section li a:hover{
+    color: var(--white-color);
+}
+.divider{
+    border: 1px solid var(--logo-color);
+    display: inline-block;
+    margin-left: 10px;
+    width: 96%;
+
+}
+
+/* nav section css end */
+
+/* banner section start  */
+.banner-content{
+    text-align: center;
+    padding: 100px 0px;
+}
+.banner-content h1{
+    color: var(--white-color);
+    font-size: 55px;
+    max-width: 65%;
+    padding-bottom: 15px;
+    margin: auto;
+}
+.banner-content p{
+    color: var(--brand-color);
+    max-width: 60%;
+    margin: auto;
+}
+.banner-content a{
+    color: var(--white-color);
+    font-size: 12px;
+    border: 1ps solid var(--button-color);
+    border-radius: 2px;
+    background-color: var(--button-color);
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 10px 35px;
+}
+.banner-content a:hover{
+    color: var(--brand-color);
+}
+/* banner section end */
+/* header section css code end  */
+/* service section css start  */
+.service-section{
+    padding: 60px 0px;
+}
+.service-content{
+    text-align: center;
+    margin: 25px 15px;
+}
+.service-content span{
+    color: var(--button-color);
+    font-size: 60px;
+}
+.service-content h6{
+    color: var(--title-color);
+    font-weight: 900;
+    padding: 15px 0px;
+    text-transform: uppercase;
+}
+.service-content p{
+    text-align: justify;
+    line-height: 1.5;
+}
+/* service section css end */
+/* Gallery section start  */
+.gallery-section{
+    margin: 50px 0px;
+    padding:0;
+}
+.gallery-inner {
+    position: relative;
+  }
+  .image {
+    display: block;
+    width: 100%;
+    height: 250px;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(204, 0, 0, .8);
+  }
+  .gallery-inner:hover .overlay {
+    opacity: 1;
+  }
+  .text {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    text-align: center;
+  }
+
+/* Gallery section end */
+/* stuff section start  */
+.card-section{
+    padding: 50px 0px;
+}
+.card-section .card{
+    border: 0px solid;
+}
+.card-section .card-body h5{
+    color: var(--title-color);
+    font-size: 22px;
+    font-weight: 600;
+}
+.card-section .card-body{
+    padding: 20px 0px;
+}
+.card-section .card-body h6{
+    color: var(--button-color);
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.card-section .card-footer{
+    border: 0px solid;
+    padding: 20px 0px;
+    background-color: var(--white-color);
+}
+.card-section .card-footer a{
+    color: var(--brand-color);
+    border: 1px solid var(--brand-color);
+    border-radius: 2px;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.card-section .card-footer a:hover{
+    color: var(--logo-color);
+    background-color: var(--brand-color);
+}
+/* stuff section end */
+
+/* founder section start  */
+.founder-section{
+    margin: 50px 0px;
+    padding: 0;
+}
+.founder-carousel{
+    background: url(../img/big02.jpg);
+    width: 50%;
+    /* padding: 80px; */
+}
+.carousel-indicators{
+    margin: 0px;
+    
+}
+.carousel-indicators [data-bs-target]{
+    margin-top: 50px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+.carousel-inner{
+    margin: 0px 100px ;
+    max-width: 420px;
+    padding:80px 20px;
+}
+.carousel-inner h5{
+    color:var(--white-color);
+    font-family: 'Cardo', serif;
+}
+.carousel-inner p{
+    color: var(--white-color);
+    font-size: 12px;
+}
+/* founder section end */
+
+/* download section start  */
+.download-section{
+    text-align: center;
+}
+.download-section h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.download-section h6{
+    font-size: 14px;
+    font-weight: 600;
+}
+.download-section a{
+    color: var(--white-color);
+    font-size: 12px;
+    border: 1ps solid var(--button-color);
+    border-radius: 2px;
+    background-color: var(--button-color);
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px 35px;
+}
+.download-section a:hover{
+    color: var(--brand-color);
+}
+/* download section end */
+/* footer section start  */
+/* about start */
+.about{
+    margin-top: 50px;
+    background: #3a3e64;
+}
+.about .container{
+    width: 60%;
+}
+.about .about-section{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.about .about-section h4{
+    color: var(--white-color);
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.about .about-section p{
+    color:var(--brand-color);
+    font-size: 12px;
+}
+.about .about-section .icon{
+    margin-top: 20px;
+}
+.about .about-section a{
+    color: var(--white-color);
+    border: 2px solid var(--white-color);
+    padding: 6px;
+    background: rgba(0, 0, 0, 0);
+}
+.about .about-section .icon a:hover{
+    background-color: var(--logo-color);
+}
+/* about end */
+/* footer start */
+.footer{
+    background: #313454;
+}
+.footer .footer-section{
+    margin: 20px 0;
+}
+.footer .footer-section p{
+    color: #808080;
+    font-size: 12px;
+}
+.footer .footer-section p span{
+    color: var(--white-color);
+}
+.footer .footer-section .fa-heart{
+    color: var(--brand-color);
+}
+/* footer end */
+/* footer section end */
